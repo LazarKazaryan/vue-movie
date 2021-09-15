@@ -1,7 +1,7 @@
 <template>
     <div class="splash-screen">
         <h1 class="splash-screen-title">Online Cinema</h1>
-        <button class="btn btn-outline-light">Go to Movies</button>
+        <router-link :to="{ name: 'films' }"><button class="btn btn-outline-light">Go to Movies</button></router-link>
     </div>
 
 </template>
